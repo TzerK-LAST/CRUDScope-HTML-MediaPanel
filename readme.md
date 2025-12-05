@@ -1,6 +1,6 @@
 # CRUDScope – HTML MediaPanel
 
-## 📌 Descripción general
+##  Descripción general
 Este proyecto es una página HTML estática que simula el panel de un sistema CRUD de tareas.  
 El objetivo principal es practicar la estructura semántica de HTML5, etiquetas no semánticas, multimedia y elementos poco comunes como `<base>`, `<abbr>` y `<time>`.
 
@@ -8,7 +8,7 @@ También se incluyen listas, tablas, formularios y navegación interna en una so
 
 ---
 
-## 📚 Investigación de etiquetas
+##  Investigación de etiquetas
 
 ### **1. Estructura**
 **Etiquetas:** html, head, body, title, base, meta  
@@ -59,23 +59,23 @@ También se incluyen listas, tablas, formularios y navegación interna en una so
 
 ---
 
-## 🎯 Diferencia entre etiquetas semánticas y no semánticas
+##  Diferencia entre etiquetas semánticas y no semánticas
 
 ### **Semánticas**
 Aportan significado al contenido, útil para navegadores, accesibilidad y SEO.  
 **Ejemplo:** `<header>` indica un encabezado, `<article>` representa contenido independiente.
 
-👉 **Se usan cuando el contenido tiene una función clara dentro de la estructura.**
+**Se usan cuando el contenido tiene una función clara dentro de la estructura.**
 
 ### **No semánticas**
 No describen el propósito del contenido.  
 **Ejemplo:** `<div>` solo es un contenedor genérico.
 
-👉 **Se usan cuando se necesita agrupar elementos sin un rol específico.**
+ **Se usan cuando se necesita agrupar elementos sin un rol específico.**
 
 ---
 
-## 🧩 Enfoque en etiquetas poco comunes
+##  Enfoque en etiquetas poco comunes
 
 ### **`<base>`**
 Define una URL base para todos los enlaces relativos de la página.  
@@ -97,7 +97,7 @@ Ayuda a buscadores y sistemas automatizados.
 
 ---
 
-## 🔗 Referencias
+##  Referencias
 - MDN Web Docs  
 - W3Schools HTML Guide  
 - Documentación oficial HTML Living Standard  
@@ -105,4 +105,5 @@ Ayuda a buscadores y sistemas automatizados.
 ---
 
 ## ✔ Autor
-Kevin — 2025
+meikuto — 2025
+

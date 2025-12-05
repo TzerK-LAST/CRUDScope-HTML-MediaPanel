@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUDScope  HTML MediaPanel</title>
+
+    <!-- Etiqueta obligatoria poco común -->
+    <base href="https://example.com/">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>CRUDScope  HTML MediaPanel</h1>
+        <p>Un panel demostrativo que simula un sistema <abbr title="Create, Read, Update, Delete">CRUD</abbr> usando solo HTML.</p>
+    </header>
+
+    <!-- NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="#crear">Crear tarea</a></li>
+            <li><a href="#listado">Listado</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN CREAR TAREA -->
+        <section id="crear">
+            <h2>Crear tarea</h2>
+            <p>En esta sección puedes registrar una nueva tarea <strong>de forma simulada</strong>.</p>
+
+            <form>
+                <label>Nombre de la tarea:
+                    <input type="text" required>
+                </label><br><br>
+
+                <label>Prioridad (1 a 5):
+                    <input type="number" min="1" max="5">
+                </label><br><br>
+
+                <label>Fecha límite:
+                    <input type="date">
+                </label><br><br>
+
+                <label>Descripción:
+                    <textarea rows="4"></textarea>
+                </label><br><br>
+
+                <button type="submit">Crear tarea</button>
+            </form>
+
+            <aside>
+                <h3>Tips de uso</h3>
+                <p><em>Recuerda:</em> las tareas creadas aquí <mark>no se guardan realmente</mark>, es solo una maqueta.</p>
+            </aside>
+        </section>
+
+        <!-- SECCIÓN LISTADO DE TAREAS -->
+        <section id="listado">
+            <h2>Listado de tareas</h2>
+            <p>Aquí se muestra un listado de tareas solo como demostración.</p>
+
+            <table border="1">
+                <tr>
+                    <th>Tarea</th>
+                    <th>Estado</th>
+                    <th>Fecha</th>
+                    <th>Acciones</th>
+                </tr>
+
+                <tr>
+                    <td>Estudiar HTML</td>
+                    <td><span>En progreso</span></td>
+                    <td><time datetime="2025-12-02">2 Dic 2025</time></td>
+                    <td>
+                        <button>Actualizar</button>
+                        <a href="#">Eliminar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Hacer ejercicio</td>
+                    <td><span>Pendiente</span></td>
+                    <td><time datetime="2025-12-03">3 Dic 2025</time></td>
+                    <td>
+                        <button>Actualizar</button>
+                        <a href="#">Eliminar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Comprar comida</td>
+                    <td><span>Completada</span></td>
+                    <td><time datetime="2025-11-30">30 Nov 2025</time></td>
+                    <td>
+                        <button>Actualizar</button>
+                        <a href="#">Eliminar</a>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Estados posibles</h3>
+            <ul>
+                <li>Pendiente</li>
+                <li>En progreso</li>
+                <li>Completada</li>
+            </ul>
+
+            <h3>Pasos para registrar una tarea</h3>
+            <ol>
+                <li>Ingresar nombre</li>
+                <li>Asignar prioridad</li>
+                <li>Definir fecha</li>
+                <li>Confirmar creación</li>
+            </ol>
+        </section>
+
+        <!-- SECCIÓN MULTIMEDIA -->
+        <section id="multimedia">
+            <h2>Multimedia del sistema</h2>
+
+            <h3>Imagen ilustrativa</h3>
+            <img src="https://picsum.photos/400" alt="Imagen de ejemplo" width="300">
+
+            <h3>Audio demostrativo</h3>
+            <audio controls>
+                <source src="https://www.kozco.com/tech/piano2.wav" type="audio/wav">
+                Tu navegador no soporta audio HTML5.
+            </audio>
+            <video controls width="400">
+            <source src="./Nightcore - Umbrella (Lyrics) - Chino (720p, h264) (1).mp4" type="video/mp4">
+            </video>
+
+
+
+        <!-- SECCIÓN ACERCA DE -->
+        <section id="acerca">
+            <h2>Acerca de CRUDScope</h2>
+            <p>
+                Este proyecto está hecho para practicar etiquetas HTML semánticas y multimedia.  
+                Su propósito es educativo y no posee <u>funcionalidad real</u>.
+            </p>
+            <p>Para más información externa visita <a href="https://developer.mozilla.org/">MDN Web Docs</a>.</p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Proyecto realizado por Kevin  <time datetime="2025">2025</time></p>
+        <address>
+            Contacto: <a href="mailto:kevinyuluo3@gmail.com">kevinyuluo3@gmail.com</a><br>
+            Medellín, Colombia
+        </address>
+    </footer>
+
+</body>
+</html>
